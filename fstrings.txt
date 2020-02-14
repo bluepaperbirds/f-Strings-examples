@@ -1,0 +1,6 @@
+>>> f"Hello {name}. I am {age}"
+'Hello Veronica. I am 25'
+
+>>> f"Im {name} {lastname}, Im {age} years old and a {job}. Im {relation}"
+'Im Veronica Sofia, Im 25 years old and a Teacher. Im Single'
+>>> 
