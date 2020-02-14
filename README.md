@@ -31,6 +31,8 @@ Then add multiple variables like this:
 >>> f"Im {name} {lastname}, Im {age} years old and a {job}. Im {relation}"
 ```
 
+## Why f-Strings
+
 %-formatting can only format ints, strs, and doubles. All other types are not supported, or not converted. For example, it cannot output tuples with the %-formatting.
 
 ```
