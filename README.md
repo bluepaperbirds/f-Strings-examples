@@ -50,3 +50,13 @@ But you can output tuples with f-Strings:
 >>> f"msg {msg}"
 "msg ('hello', 13)"
 >>>
+
+You can even use it on datetime
+
+```
+>>> import datetime
+>>> date = datetime.date(2010, 5, 5)
+>>> f'{date} was on a {date:%A}'
+'2010-05-05 was on a Wednesday'
+>>> 
+```
